@@ -123,9 +123,10 @@ public class HomeFragment extends Fragment {
 
         List<SlideModel> slideModels = new ArrayList<>();
 
-        slideModels.add(new SlideModel(R.drawable.banner1,"Discount On Shoes Items", ScaleTypes.CENTER_CROP));
-        slideModels.add(new SlideModel(R.drawable.banner2,"Discount On Perfume", ScaleTypes.CENTER_CROP));
-        slideModels.add(new SlideModel(R.drawable.banner3,"70% off", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.flowers1,"Discount On Rose", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.flowers2,"Discount On Lila", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.flowers3,"70% off", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.flowers4,"30% off", ScaleTypes.CENTER_CROP));
 
         imageSlider.setImageList(slideModels);
 
